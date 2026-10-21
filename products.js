@@ -8,23 +8,15 @@
 //   url      : 販売ページのURL
 //   category : 種類（アクリル、ステッカー、Tシャツ など自由に）
 //
-// ↓ 今入っている2件はサンプルです。実際の商品に書き換えてください。
+// price が分からないときは null にすると「価格はショップで確認」と表示されます。
 
 const PRODUCTS = [
   {
-    name: "ぺんてぃ アクリルキーホルダー（サンプル）",
+    name: "ぺんてぃ アクリルキーホルダー",
     shop: "BOOTH",
-    price: 800,
-    image: "",
-    url: "https://comacraft.booth.pm/",
+    price: null,
+    image: "images/acrylic-keychain.webp",
+    url: "https://comacraft.booth.pm/items/8971860",
     category: "アクリル",
-  },
-  {
-    name: "ぺんてぃ Tシャツ（サンプル）",
-    shop: "SUZURI",
-    price: 3000,
-    image: "",
-    url: "https://suzuri.jp/comacraft/products",
-    category: "Tシャツ",
   },
 ];

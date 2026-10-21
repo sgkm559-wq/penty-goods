@@ -34,7 +34,9 @@ function card(item) {
   body.append(
     meta,
     el("h2", "name", item.name),
-    el("p", "price", "¥" + Number(item.price).toLocaleString("ja-JP"))
+    item.price == null
+      ? el("p", "price price-unknown", "価格はショップで確認")
+      : el("p", "price", "¥" + Number(item.price).toLocaleString("ja-JP"))
   );
 
   link.append(thumb, body);
