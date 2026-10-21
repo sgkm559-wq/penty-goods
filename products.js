@@ -90,4 +90,12 @@ const PRODUCTS = [
     url: "https://suzuri.jp/comacraft/21064058/desk-calendar/2027/white",
     category: "カレンダー",
   },
+  {
+    name: "ぺんてぃ P氷ロゴ マグカップ",
+    shop: "SUZURI",
+    price: 2376,
+    image: "images/mug-p-ice-logo.png",
+    url: "https://suzuri.jp/comacraft/21051946/mug/m/white",
+    category: "マグカップ",
+  },
 ];
