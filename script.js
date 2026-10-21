@@ -9,6 +9,15 @@ function el(tag, className, text) {
   return node;
 }
 
+function yen(n) {
+  return "¥" + Number(n).toLocaleString("ja-JP");
+}
+
+function priceText(price) {
+  if (Array.isArray(price)) return yen(Math.min(...price)) + "〜";
+  return yen(price);
+}
+
 function card(item) {
   const li = el("li", "card");
   const link = el("a", "card-link");
@@ -36,8 +45,9 @@ function card(item) {
     el("h2", "name", item.name),
     item.price == null
       ? el("p", "price price-unknown", "価格はショップで確認")
-      : el("p", "price", "¥" + Number(item.price).toLocaleString("ja-JP"))
+      : el("p", "price", priceText(item.price))
   );
+  if (item.note) body.append(el("p", "note", item.note));
 
   link.append(thumb, body);
   li.append(link);
