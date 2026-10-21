@@ -31,4 +31,12 @@ const PRODUCTS = [
     url: "https://comacraft.booth.pm/items/9022951",
     category: "めじるしチャーム",
   },
+  {
+    name: "ぺんてぃ キャップ P氷ロゴ",
+    shop: "BOOTH",
+    price: 3000,
+    image: "images/cap-p-ice-logo.webp",
+    url: "https://comacraft.booth.pm/items/8919022",
+    category: "キャップ",
+  },
 ];
