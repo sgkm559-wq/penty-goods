@@ -56,4 +56,13 @@ const PRODUCTS = [
     url: "https://comacraft.booth.pm/items/8913128",
     category: "モバイルバッテリー",
   },
+  {
+    name: "ぺんてぃエンブレムパターン タオルハンカチ",
+    shop: "SUZURI",
+    price: [1695, 1905, 2115],
+    note: "サイズ：S / M / L",
+    image: "images/towel-handkerchief-emblem.png",
+    url: "https://suzuri.jp/comacraft/21071554/towel-handkerchief/l/white",
+    category: "タオルハンカチ",
+  },
 ];
