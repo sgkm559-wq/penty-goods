@@ -106,4 +106,12 @@ const PRODUCTS = [
     url: "https://suzuri.jp/comacraft/21051946/acrylic-keychain/50x50mm/clear",
     category: "アクリル",
   },
+  {
+    name: "ぺんてぃ P氷ロゴ ステッカー",
+    shop: "SUZURI",
+    price: 842,
+    image: "images/sticker-p-ice-logo.webp",
+    url: "https://suzuri.jp/comacraft/21051946/sticker/m/white",
+    category: "ステッカー",
+  },
 ];
