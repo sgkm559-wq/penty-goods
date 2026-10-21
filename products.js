@@ -48,4 +48,12 @@ const PRODUCTS = [
     url: "https://comacraft.booth.pm/items/8917183",
     category: "めじるしチャーム",
   },
+  {
+    name: "ぺんてぃ(ハートまみれ) モバイルバッテリー",
+    shop: "BOOTH",
+    price: 5000,
+    image: "images/mobile-battery-hearts.webp",
+    url: "https://comacraft.booth.pm/items/8913128",
+    category: "モバイルバッテリー",
+  },
 ];
