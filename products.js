@@ -19,4 +19,12 @@ const PRODUCTS = [
     url: "https://comacraft.booth.pm/items/8971860",
     category: "アクリル",
   },
+  {
+    name: "ぺんてぃ めじるしチャーム(ノーマル)",
+    shop: "BOOTH",
+    price: 700,
+    image: "images/mejirushi-charm-normal.webp",
+    url: "https://comacraft.booth.pm/items/9022951",
+    category: "めじるしチャーム",
+  },
 ];
