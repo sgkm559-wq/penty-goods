@@ -65,4 +65,12 @@ const PRODUCTS = [
     url: "https://suzuri.jp/comacraft/21071554/towel-handkerchief/l/white",
     category: "タオルハンカチ",
   },
+  {
+    name: "ぺんてぃエンブレムパターン バンダナ",
+    shop: "SUZURI",
+    price: 2860,
+    image: "images/bandana-emblem.png",
+    url: "https://suzuri.jp/comacraft/21071554/bandana/m/white",
+    category: "バンダナ",
+  },
 ];
