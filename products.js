@@ -82,4 +82,12 @@ const PRODUCTS = [
     url: "https://suzuri.jp/comacraft/21071211/towel-handkerchief/m/white",
     category: "タオルハンカチ",
   },
+  {
+    name: "ぺんてぃカレンダー2027 卓上カレンダー",
+    shop: "SUZURI",
+    price: 2039,
+    image: "images/desk-calendar-2027.png",
+    url: "https://suzuri.jp/comacraft/21064058/desk-calendar/2027/white",
+    category: "カレンダー",
+  },
 ];
