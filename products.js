@@ -98,4 +98,12 @@ const PRODUCTS = [
     url: "https://suzuri.jp/comacraft/21051946/mug/m/white",
     category: "マグカップ",
   },
+  {
+    name: "ぺんてぃ P氷ロゴ アクリルキーホルダー",
+    shop: "SUZURI",
+    price: 1564,
+    image: "images/acrylic-keychain-p-ice-logo.png",
+    url: "https://suzuri.jp/comacraft/21051946/acrylic-keychain/50x50mm/clear",
+    category: "アクリル",
+  },
 ];
