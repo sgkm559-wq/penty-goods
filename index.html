@@ -39,7 +39,16 @@
     <p class="copy">© comacraft</p>
   </footer>
 
-  <script src="products.js"></script>
-  <script src="script.js"></script>
+  <script>
+    // 商品リストは毎回最新を読み込む（ブラウザのキャッシュで古い一覧が出ないように）
+    const list = document.createElement("script");
+    list.src = "products.js?v=" + Date.now();
+    list.onload = () => {
+      const main = document.createElement("script");
+      main.src = "script.js";
+      document.body.append(main);
+    };
+    document.body.append(list);
+  </script>
 </body>
 </html>
