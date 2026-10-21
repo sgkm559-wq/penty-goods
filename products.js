@@ -39,4 +39,13 @@ const PRODUCTS = [
     url: "https://comacraft.booth.pm/items/8919022",
     category: "キャップ",
   },
+  {
+    name: "ぺんてぃ めじるしチャーム オーロラ貝殻",
+    shop: "BOOTH",
+    price: 1000,
+    note: "カラー：青 / 黄",
+    image: "images/mejirushi-charm-aurora-shell.webp",
+    url: "https://comacraft.booth.pm/items/8917183",
+    category: "めじるしチャーム",
+  },
 ];
