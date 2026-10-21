@@ -73,4 +73,13 @@ const PRODUCTS = [
     url: "https://suzuri.jp/comacraft/21071554/bandana/m/white",
     category: "バンダナ",
   },
+  {
+    name: "ぺんてぃトースト タオルハンカチ",
+    shop: "SUZURI",
+    price: [1695, 1905, 2115],
+    note: "サイズ：S / M / L",
+    image: "images/towel-handkerchief-toast.png",
+    url: "https://suzuri.jp/comacraft/21071211/towel-handkerchief/m/white",
+    category: "タオルハンカチ",
+  },
 ];
